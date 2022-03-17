@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="./favicon-32x32.png" />
+    <script src="app.js" async></script>
+    <title>Morpion JS</title>
+</head>
+<body>
+    <h1>Le Jeu du Morpion.</h1>
+    <div id="chooseName">
+        <input id="name" type="text" placeholder="Quel est votre nom ?"><br>
+        <button onclick="chooseName()" id="visible">J'ai mis mon nom et je suis prêt à jouer !</button>
+    </div>
+    <div id="noDisplay">
+
+        <h2><span id="playerName">Player</span> : <span class="playerScore">0</span> | Ordinateur : <span class="computerScore">0</span></h2>
+        <div id="gameAndText">
+            <div class="gameSquare">
+                <div class="row-A">
+                    <div data-number="1" id="box1" class="box"></div>
+                    <div data-number="2" id="box2" class="box"></div>
+                    <div data-number="3" id="box3" class="box"></div>
+                </div>
+                <div class="row-B">
+                    <div data-number="4" id="box4" class="box"></div>
+                    <div data-number="5" id="box5" class="box"></div>
+                    <div data-number="6" id="box6" class="box"></div>
+                </div>
+                <div class="row-C">
+                    <div data-number="7" id="box7" class="box"></div>
+                    <div data-number="8" id="box8" class="box"></div>
+                    <div data-number="9" id="box9" class="box"></div>
+                </div>
+            </div>
+            <div class="whoWon"></div>
+            <button>Redémarrer le jeu</button>
+            
+        </div>
+    </div>
+    <div class="whoPlayFirst">
+                <h2>Qui jouera en premier ?</h2>
+                <button onclick="whichButtonWasPressed(`❌`)">Moi !</button>
+                <button onclick="whichButtonWasPressed(`🔵`)">L'ordinateur !</button>
+            </div>
+</body>
+</html>

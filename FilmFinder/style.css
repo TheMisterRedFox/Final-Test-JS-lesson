@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+#filmfinder-content {
+  margin: 2.2% 3%;
+}
+
+h1 {
+  color: #5e7ce2;
+  font-size: 225%;
+}
+
+#search-input {
+  color: #c9c9c9;
+  border: none;
+  font-size: 150%;
+  width: 97%;
+}
+
+#search-input:focus {
+  outline: none;
+}
+
+svg {
+  height: 50px;
+  width: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+#search {
+  border: 2px solid #00000086;
+  display: flex;
+  align-items: center;
+  border-radius: 50px 50px 50px 50px;
+  padding: 15px 40px;
+  justify-content: space-between;
+}
+
+.submit,
+.read-more,
+.ApiKey {
+  margin: 2.5% 0%;
+  background-color: #5e7ce2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 20px 7px 40px;
+  width: 13%;
+  border-radius: 50px 50px 50px 50px;
+  cursor: pointer;
+}
+
+#search svg {
+  cursor: pointer;
+}
+
+.submit input,
+.read-more input,
+.ApiKey input {
+  border: none;
+  background: none;
+  color: white;
+  font-size: 125%;
+  cursor: pointer;
+}
+
+.read-more {
+  padding: 15px 25px 15px 25px;
+  margin-bottom: 0;
+  justify-self: flex-end;
+}
+
+.card {
+  border: 1px solid #00000086;
+  padding: 2%;
+  border-radius: 50px 50px 50px 50px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3%;
+}
+
+.card h2 {
+  font-size: 135%;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.card h1 {
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 150%;
+}
+
+.card img {
+  height: 30vh;
+  margin-right: 2%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 100%;
+}
+
+#searching {
+  font-weight: bold;
+  text-align: center;
+}
+
+.ApiKey {
+  background-color: #f3b80a;
+  width: 7%;
+  margin-left: 1%;
+  border-radius: 10px;
+}
+
+.ApiKey input {
+  color: #000000d3;
+}
+
+.submitAndAPI {
+  display: flex;
+  flex-direction: row;
+}
