@@ -2,7 +2,7 @@ let APIKey = undefined;
 
 const movie = async (searched) => {
   const response = await fetch(
-    `http://www.omdbapi.com/?apikey=${APIKey}&s=${searched}`
+    `https://www.omdbapi.com/?apikey=${APIKey}&s=${searched}`
   );
   const movieResponse = await response.json();
   return movieResponse;
@@ -10,7 +10,7 @@ const movie = async (searched) => {
 
 const searchDescription = async (searched) => {
   const response = await fetch(
-    `http://www.omdbapi.com/?apikey=${APIKey}&t=${searched}&plot=short`
+    `https://www.omdbapi.com/?apikey=${APIKey}&t=${searched}&plot=short`
   );
   const descriptionResponse = await response.json();
   let description = await descriptionResponse.Plot;
@@ -94,7 +94,7 @@ const handleSearch = async (event) => {
 const validAPIKey = async () => {
   APIKey = prompt("Please enter your API Key from OMDb");
   const response = await fetch(
-    `http://www.omdbapi.com/?apikey=${APIKey}&t=The Imitation Game`
+    `https://www.omdbapi.com/?apikey=${APIKey}&t=The Imitation Game`
   );
   const movieResponse = await response.json();
   if (movieResponse.Response === "False") {
