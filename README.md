@@ -75,3 +75,8 @@ Vous affichez la description du film dans les cards
 ### How To use ? 🤩🎥
 
 You need an https://www.omdbapi.com/ API Free Key, then you enter with the button "API KEY", then you can use the website !
+
+
+## How to go to the website ?
+### FilmFinder : https://themisterredfox.github.io/Final-Test-JS-lesson/FilmFinder/
+### Tic Tac Toe : https://themisterredfox.github.io/Final-Test-JS-lesson/Morpion
