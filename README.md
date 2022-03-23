@@ -78,5 +78,5 @@ You need an https://www.omdbapi.com/ API Free Key, then you enter with the butto
 
 
 ## How to go to the website ?
-FilmFinder : https://themisterredfox.github.io/Final-Test-JS-lesson/FilmFinder/
-Tic Tac Toe : https://themisterredfox.github.io/Final-Test-JS-lesson/Morpion
+### FilmFinder : https://themisterredfox.github.io/Final-Test-JS-lesson/FilmFinder/
+### Tic Tac Toe : https://themisterredfox.github.io/Final-Test-JS-lesson/Morpion
