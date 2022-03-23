@@ -31,7 +31,7 @@ const deleteCard = (nameClass) => {
 };
 
 const createCard = (movie) => {
-  document.getElementById("searching").innerText = "Recherche en cours...";
+  document.getElementById("searching").innerText = "Searching...";
   movie.Search.forEach(async (movieFound) => {
     let poster = movieFound.Poster;
     const description = await searchDescription(movieFound.Title);
